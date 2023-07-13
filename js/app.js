@@ -84,8 +84,7 @@ for (let i = 4; i > 0; i--)
 let favBrands = ['nike', 'new balance', 'reebok', 'adidas'];
 
 for(let i = 6; i > 0; i--){
-  let userBrandPick = prompt(`Which of these are my favorite brand?: ${favBrands}`);
-  for(let i=0; i < favBrands.length; i++) {
+  let userBrandPick = prompt(`Which of these are my favorite brand?: ${favBrands}`); {
     if (userBrandPick === 'nike' || userBrandPick === 'new balance'){
       score++;
       alert('These are my favorites');
